@@ -1,0 +1,53 @@
+Title: "Power Tools search"
+Priority: BLOCKER
+Preconditions: Opened page https://www.ebay.com/
+
+Steps to reproduce:
+1) Type search field with "dewalt dcd791b"
+2) Click the Search button
+
+
+Expected Result:
+1) Results list contains item with "DEWALT DCD791B 20V 20 Volt 2 Speed Brushless" title
+
+-----------------
+
+Title: "Power Tools search"
+Priority: BLOCKER
+Preconditions: Opened page https://www.ebay.com/
+
+Steps to reproduce:
+1) Type search field with "Milwaukee 2407-20"
+2) Click the Search button
+
+
+Expected Result:
+1) Results list contains item with "Milwaukee 2407-20 NEW M12 12V Li-Ion Cordless" title
+
+-----------------
+
+Title: "Power Tools search"
+Priority: BLOCKER
+Preconditions: Opened page https://www.ebay.com/
+
+Steps to reproduce:
+1) Type search field with "Makita DHP482Z"
+2) Click the Search button
+
+
+Expected Result:
+1) Results list contains item with "Makita DHP482Z 18V LXT Combi Hammer Driver Drill" title
+
+-----------------
+
+Title: "Power Tools search"
+Priority: BLOCKER
+Preconditions: Opened page https://www.ebay.com/
+
+Steps to reproduce:
+1) Type search field with "Bosch GSR18V"
+2) Click the Search button
+
+
+Expected Result:
+1) Results list contains item with "BOSCH GSR18V-190-RT 18V Li-Ion Cordless 18-Volt" title
