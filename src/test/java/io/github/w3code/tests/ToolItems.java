@@ -1,9 +1,9 @@
 package io.github.w3code.tests;
 
 public enum ToolItems {
-    DEWALT("dewalt dcd791b", "DEWALT DCD791B 20V 20 Volt 2 Speed Brushless"),
-    MILWAUKEE("Milwaukee 2407-20", "Milwaukee 2407-20 NEW M12 12V Li-Ion Cordless"),
-    MAKITA("Makita DHP482Z", "Makita DHP482Z 18V LXT Combi Hammer Driver Drill");
+    DEWALT("DeWALT DCS551B", "DeWALT DCS551B 20V 20 Volt Li-Ion Max Cordless Rotary Drywall Cut-out Tool"),
+    MILWAUKEE("Milwaukee 2810-20", "Milwaukee 2810-20 M18 18V 18 Volt FUEL Mud Mixer"),
+    MAKITA("Makita XWT15Z", "Makita XWT15Z 18V LXT Lithium?Ion Brushless Cordless");
 
     private final String brand;
     private final String title;
