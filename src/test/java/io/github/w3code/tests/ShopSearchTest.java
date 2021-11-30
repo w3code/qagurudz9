@@ -11,6 +11,7 @@ import java.util.stream.Stream;
 
 public class ShopSearchTest extends TestBase {
 
+    @Disabled
     @EnumSource(ToolItems.class)
     @Tag("Blocker")
     @DisplayName("Power Tools search")
@@ -25,9 +26,9 @@ public class ShopSearchTest extends TestBase {
 
     static Stream<Arguments> goodSearchTest_MethodSource() {
         return Stream.of(
-                Arguments.of("dewalt dcd791b", List.of("DEWALT DCD791B 20V 20 Volt 2 Speed Brushless")),
-                Arguments.of("Milwaukee 2407-20", List.of("Milwaukee 2407-20 NEW M12 12V Li-Ion Cordless")),
-                Arguments.of("Makita DHP482Z", List.of("Makita DHP482Z 18V LXT Combi Hammer Driver Drill"))
+                Arguments.of("DeWALT DCS551B", List.of("DeWALT DCS551B 20V 20 Volt Li-Ion Max Cordless Rotary Drywall Cut-out Tool")),
+                Arguments.of("Milwaukee 2810-20", List.of("Milwaukee 2810-20 M18 18V 18 Volt FUEL Mud Mixer")),
+                Arguments.of("Makita XWT15Z", List.of("Makita XWT15Z 18V LXT Lithium?Ion Brushless Cordless"))
         );
     }
 
@@ -74,8 +75,7 @@ public class ShopSearchTest extends TestBase {
                 .checkResultsValue(toolItemTitle);
     }
 
-    @Disabled
-    @ValueSource(strings = {"dewalt dcd791b", "Milwaukee 2407-20", "Makita DHP482Z"})
+    @ValueSource(strings = {"DeWALT DCS551B", "Milwaukee 2810-20", "Makita XWT15Z"})
     @Tag("Blocker")
     @DisplayName("Power Tools search")
     @ParameterizedTest(name = "Search result contains {0}")
