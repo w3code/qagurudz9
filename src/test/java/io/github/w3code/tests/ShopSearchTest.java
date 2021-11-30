@@ -11,6 +11,7 @@ import java.util.stream.Stream;
 
 public class ShopSearchTest extends TestBase {
 
+    //some npocbet's comments 4 9th homework
     @EnumSource(ToolItems.class)
     @Tag("Blocker")
     @DisplayName("Power Tools search")
